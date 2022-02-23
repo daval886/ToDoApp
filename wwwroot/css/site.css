@@ -23,10 +23,19 @@ td {
     padding: 10px;
 }
 
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     margin: 0;
-    height: 100%;
     min-height: 100%;
+    min-width: 100%;
+}
+
+html body {
+    overflow: hidden;
 }
 
 .content {
@@ -35,15 +44,18 @@ body {
 }
 
 .header {
+    display: flex;
+    align-items: center;
     background-color: #c92043;
     width: 100%;
     color: white;
     height: 10vh;
-    padding: 10px 0;
-    text-align: center;
+    max-height: 10vh;
 }
 
 .footer {
+    display: flex;
+    align-items: center;
     position: absolute;
     bottom: 0;
     background-color: #c92043;
@@ -51,12 +63,7 @@ body {
     color: white;
     height: 10vh;
     margin-top: -10vh;
-    text-align: center;
 }
-
-    .footer h1 {
-        margin-top: auto;
-    }
 
 h1, h3, pm button {
     font-family: 'Ubuntu', sans-serif;
@@ -75,4 +82,14 @@ h1, h3, pm button {
     border: none;
     padding: 10px 5px;
     border-radius: 4px;
+}
+
+#add-name {
+    border: 2px solid;
+    border-color: #b8b8b8;
+    border-radius: 5px;
+    padding: 5px;
+    width: 30vw;
+    margin-top: 10px;
+    height: 22px;
 }

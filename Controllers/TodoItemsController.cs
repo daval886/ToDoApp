@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using ToDoApp.Models;
 using ToDoApp.DTO;
+using ToDoApp.Exceptions;
 
 namespace TodoApi.Controllers
 {
@@ -33,7 +34,7 @@ namespace TodoApi.Controllers
 
             if (todoItem == null)
             {
-                return NotFound();
+                throw new NotFoundException("ToDo item is null.");
             }
 
             return ItemToDTO(todoItem);
@@ -45,13 +46,13 @@ namespace TodoApi.Controllers
         {
             if (id != todoItemDTO.Id)
             {
-                return BadRequest();
+                throw new BadRequestException("ToDo item with provided ID does not exist.");
             }
 
             var todoItem = await _context.TodoItems.FindAsync(id);
             if (todoItem == null)
             {
-                return NotFound();
+                throw new NotFoundException("ToDo item is null.");
             }
 
             todoItem.Name = todoItemDTO.Name;
@@ -63,10 +64,10 @@ namespace TodoApi.Controllers
             }
             catch (DbUpdateConcurrencyException) when (!TodoItemExists(id))
             {
-                return NotFound();
+                throw new NotFoundException("ToDo item is null.");
             }
 
-            return NoContent();
+            throw new NoContentException("There is nothing to update.");
         }
         // POST: api/TodoItems
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -96,13 +97,13 @@ namespace TodoApi.Controllers
 
             if (todoItem == null)
             {
-                return NotFound();
+                throw new NotFoundException("ToDo item is null.");
             }
 
             _context.TodoItems.Remove(todoItem);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            throw new NoContentException("There is nothing to delete.");
         }
 
         private bool TodoItemExists(long id)
