@@ -1,0 +1,78 @@
+﻿input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+}
+
+#editForm {
+    display: none;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 90vw;
+}
+
+tr {
+    border: 2px solid;
+    border-color: #b8b8b8;
+    padding: 5px;
+}
+
+td {
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+.content {
+    width: 100vw;
+    margin: 5%;
+}
+
+.header {
+    background-color: #c92043;
+    width: 100%;
+    color: white;
+    height: 10vh;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #c92043;
+    width: 100%;
+    color: white;
+    height: 10vh;
+    margin-top: -10vh;
+    text-align: center;
+}
+
+    .footer h1 {
+        margin-top: auto;
+    }
+
+h1, h3, pm button {
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+}
+
+.footerLogo {
+    height: 5%;
+    width: auto;
+}
+
+#addButton {
+    background-color: #c92043;
+    color: white;
+    font-family: 'Ubuntu';
+    border: none;
+    padding: 10px 5px;
+    border-radius: 4px;
+}
