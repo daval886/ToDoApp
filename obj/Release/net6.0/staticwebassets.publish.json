@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Dub32bJIKWoWpEaD3ClLsOj8HaMWBLSsp6xvKLWERmI=",
+  "Hash": "0J6XTwTJ7H8vdLGeI1S40gYduCuJLN8At/oRU60P8mY=",
   "Source": "ToDoApp",
   "BasePath": "_content/ToDoApp",
   "Mode": "Default",
@@ -32,6 +32,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\images\\plus-icon.png",
+      "SourceId": "ToDoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\",
+      "BasePath": "_content/ToDoApp",
+      "RelativePath": "images/plus-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plus-icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\images\\plus-image.jfif",
+      "SourceId": "ToDoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\",
+      "BasePath": "_content/ToDoApp",
+      "RelativePath": "images/plus-image.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\plus-image.jfif"
     },
     {
       "Identity": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\images\\visma-logo.png",
