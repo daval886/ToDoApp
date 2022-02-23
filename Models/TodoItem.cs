@@ -13,7 +13,7 @@ namespace ToDoApp.Models
 
         public TodoItem()
         {
-            this.CreationDate = DateTime.UtcNow.ToString("dd.MM.yyyy HH:mm:ss");
+            CreationDate = DateTime.UtcNow.ToString("dd.MM.yyyy HH:mm:ss");
         }
     }
 }

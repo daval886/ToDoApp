@@ -2,17 +2,17 @@
 let todos = [];
 
 
-//function getCurrentDate() {
-//    let date = new Date();
-//    let cDay = date.getDate();
-//    let cMonth = date.getMonth() + 1;
-//    let cYear = date.getFullYear();
-//    let cHour = date.getHours();
-//    let cMinutes = date.getMinutes();
-//    let cSeconds = date.getSeconds();
+function getCurrentDate() {
+    let date = new Date();
+    let cDay = date.getDate();
+    let cMonth = date.getMonth() + 1;
+    let cYear = date.getFullYear();
+    let cHour = date.getHours();
+    let cMinutes = date.getMinutes();
+    let cSeconds = date.getSeconds();
 
-//    return cDay + '.' + cMonth + '.' + cYear + ' ' + cHour + ':' + cMinutes + ':' + cSeconds;
-//}
+    return cDay + '.' + cMonth + '.' + cYear + ' ' + cHour + ':' + cMinutes + ':' + cSeconds;
+}
 
 function getItems() {
     fetch(uri)
@@ -26,7 +26,7 @@ function addItem() {
 
     const item = {
         isComplete: false,
-        name: addNameTextbox.value.trim()
+        name: addNameTextbox.value.trim(),
     };
 
     fetch(uri, {

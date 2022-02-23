@@ -12,7 +12,7 @@ namespace ToDoApp.DTO
 
         public TodoItemDTO()
         {
-            this.CreationDate = DateTime.UtcNow.ToString("dd.MM.yyyy HH:mm:ss");
+            CreationDate = DateTime.UtcNow.ToString("dd.MM.yyyy HH:mm:ss");
         }
     }
 }
