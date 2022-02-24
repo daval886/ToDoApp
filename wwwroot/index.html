@@ -14,6 +14,15 @@
         <h1>To-Do List</h1>
     </header>
     <div class="content" id="content">
+        <div class="weather-container">
+            <img src="" alt="WeatherIcon" srcset="" id="weather-icon">
+            <div id="location">Unable to Fetch Weather</div>
+            <div class="desc">No Information Available.</div>
+            <div class="weather">
+                <div class="c">Error</div>
+                <div class="circle"></div>
+            </div>
+        </div>
         <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
             <input type="text" id="add-name" placeholder="Add new To-Do Item">
             <input id="addButton" type="submit" value="Add">
@@ -23,9 +32,9 @@
             <h3>Edit</h3>
             <form action="javascript:void(0);" onsubmit="updateItem()">
                 <input type="hidden" id="edit-id">
-                <input type="checkbox" id="edit-isComplete">
-                <input type="text" id="edit-name">
-                <input type="submit" value="Save">
+                <input id="edit-isComplete" type="checkbox" id="edit-isComplete">
+                <input id="edit-name" type="text" id="edit-name">
+                <input id="save" type="submit" value="Save">
                 <a onclick="closeInput()" aria-label="Close">&#10006;</a>
             </form>
         </div>

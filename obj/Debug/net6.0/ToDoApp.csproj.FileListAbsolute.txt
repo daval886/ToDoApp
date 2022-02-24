@@ -10,7 +10,6 @@ C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\bin\Debug\net6.0\Micros
 C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\obj\Debug\net6.0\ToDoApp.csproj.AssemblyReference.cache
 C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\obj\Debug\net6.0\ToDoApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\obj\Debug\net6.0\ToDoApp.AssemblyInfoInputs.cache
 C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\obj\Debug\net6.0\ToDoApp.AssemblyInfo.cs
@@ -267,3 +266,7 @@ C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\bin\Debug\net6.0\Micros
 C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\bin\Debug\net6.0\Microsoft.AspNetCore.AzureAppServicesIntegration.dll
 C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.AzureAppServices.dll
+C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\bin\Debug\net6.0\NSubstitute.dll
+C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\david.pelegrin\Desktop\Projects\ToDoApp\ToDoApp\obj\Debug\net6.0\ToDoApp.csproj.AssemblyReference.cache

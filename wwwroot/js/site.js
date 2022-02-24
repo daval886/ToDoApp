@@ -1,6 +1,41 @@
 ﻿const uri = 'api/todoitems';
 let todos = [];
+const api = '5a77b95f81ccf0723f86e3ef72832ac4';
 
+const iconImg = document.getElementById('weather-icon');
+const loc = document.querySelector('#location');
+const tempC = document.querySelector('.c');
+const desc = document.querySelector('.desc');
+
+window.addEventListener('load', () => {
+    let long, lat;
+
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+            long = position.coords.longitude;
+            lat = position.coords.latitude;
+
+            const base = `https://api.openweathermap.org/data/2.5/weatherlat=${lat}&lon=${long}&appid=${api}&units=metric`;
+            console.log(base);
+
+            fetch(base).then((response) => {
+                return response.json();
+            })
+                .then((data) => {
+                    const { temp } = data.main;
+                    const place = data.name;
+                    const { description, icon } = data.weather[0];
+
+                    const iconUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+
+                    iconImg.src = iconUrl;
+                    loc.textContent = `${place}`;
+                    desc.textContent = `${description}`;
+                    tempC.textContent = `${temp.toFixed(2)} °C`;
+                });
+        });
+    }
+})
 
 function getCurrentDate() {
     let date = new Date();
