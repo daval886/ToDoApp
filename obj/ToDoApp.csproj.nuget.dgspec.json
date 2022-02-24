@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "DevExpress.Data": {
+              "target": "Package",
+              "version": "[21.2.5, )"
+            },
             "Microsoft.AspNetCore.AzureAppServices.HostingStartup": {
               "target": "Package",
               "version": "[6.0.2, )"
@@ -86,9 +90,25 @@
               "target": "Package",
               "version": "[3.13.2, )"
             },
+            "ServiceStack": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.88, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           },
           "imports": [

@@ -12,6 +12,7 @@
   </PropertyGroup>
   
   <ItemGroup>
+    <PackageReference Include="DevExpress.Data" Version="21.2.5" />
     <PackageReference Include="Microsoft.AspNetCore.AzureAppServices.HostingStartup" Version="6.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.AzureAppServicesIntegration" Version="6.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
@@ -26,7 +27,11 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
     <PackageReference Include="NSubstitute" Version="4.3.0" />
     <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="ServiceStack" Version="6.0.2" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.88" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.4.1" />
   </ItemGroup>
 
   <ItemGroup>
