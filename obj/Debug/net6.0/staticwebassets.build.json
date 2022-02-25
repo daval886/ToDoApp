@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UV51JWlia1tn7RbgTtpsdtECed80Me0HrukjuEJXZtA=",
+  "Hash": "L25Fq9je3C/LghlAwwbwKRdwPvV03qptrK1tZF7fHOc=",
   "Source": "ToDoApp",
   "BasePath": "_content/ToDoApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ToDoApp\\wwwroot",
       "Source": "ToDoApp",
-      "ContentRoot": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\",
       "BasePath": "_content/ToDoApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\css\\site.css",
       "SourceId": "ToDoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\",
       "BasePath": "_content/ToDoApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\images\\plus-icon.png",
+      "Identity": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\images\\plus-icon.png",
       "SourceId": "ToDoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\",
       "BasePath": "_content/ToDoApp",
       "RelativePath": "images/plus-icon.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\images\\plus-icon.png"
     },
     {
-      "Identity": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\images\\plus-image.jfif",
+      "Identity": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\images\\plus-image.jfif",
       "SourceId": "ToDoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\",
       "BasePath": "_content/ToDoApp",
       "RelativePath": "images/plus-image.jfif",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\images\\plus-image.jfif"
     },
     {
-      "Identity": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\images\\visma-logo.png",
+      "Identity": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\images\\visma-logo.png",
       "SourceId": "ToDoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\",
       "BasePath": "_content/ToDoApp",
       "RelativePath": "images/visma-logo.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\images\\visma-logo.png"
     },
     {
-      "Identity": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\index.html",
       "SourceId": "ToDoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\",
       "BasePath": "_content/ToDoApp",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\js\\site.js",
       "SourceId": "ToDoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\david\\Desktop\\ToDoApp\\wwwroot\\",
       "BasePath": "_content/ToDoApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",

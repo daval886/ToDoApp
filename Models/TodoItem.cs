@@ -11,7 +11,7 @@ namespace ToDoApp.Models
         public bool IsComplete { get; set; }
 
         [Unique]
-        public string? CreationDate { get; set; } = DateTime.UtcNow.ToString("dd.MM.yyyy HH:mm:ss");
+        public string? CreationDate { get; set; } = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss");
         public string? Secret { get; set; }
     }
 }

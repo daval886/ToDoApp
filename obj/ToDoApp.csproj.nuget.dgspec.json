@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {}
+    "C:\\Users\\david\\Desktop\\ToDoApp\\ToDoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {
+    "C:\\Users\\david\\Desktop\\ToDoApp\\ToDoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
+        "projectUniqueName": "C:\\Users\\david\\Desktop\\ToDoApp\\ToDoApp.csproj",
         "projectName": "ToDoApp",
-        "projectPath": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
-        "packagesPath": "C:\\Users\\david.pelegrin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david.pelegrin\\Desktop\\Projects\\ToDoApp\\ToDoApp\\obj\\",
+        "projectPath": "C:\\Users\\david\\Desktop\\ToDoApp\\ToDoApp.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david\\Desktop\\ToDoApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\david.pelegrin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
